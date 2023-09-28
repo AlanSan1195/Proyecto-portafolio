@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/assets/css/contact.css">
+<link rel="stylesheet" type="text/css" href="/css/assets/css/copiar y pegar.css">
+<link rel="stylesheet" type="text/css" href="./css/assets/css/experience.css">
+<link rel="stylesheet" type="text/css" href="./css/assets/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="./css/assets/css/header.css">
+<link rel="stylesheet" type="text/css" href="./css/assets/css/MAIN.css">
+<link rel="stylesheet" type="text/css" href="./css/assets/css/nav.css">
+<link rel="stylesheet" href="./css/assets/css/portfolio.css">
+<link rel="stylesheet" href="./css/assets/css/sections.css">
+<link rel="stylesheet" href="./css/assets/css/skillset.css">
+<link rel="stylesheet" href="./css/assets/css/utils.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="circle" src="html/assets/img/logos/large.png" alt="logo large">
+        <H1>Alan Isai Sandoval T.</H1>
+        <hr>
+        <h2>Desarrolador de Software </h2>
+        <video autoplay loop muted
+        src="html/assets/video/hero.mp4"></video>
+    </header>
+
+    <nav id="navbar" class=" ">
+        <!-- nos aedlantamos a darle una identificacion a la barra para 
+        usarla en la edicion de CSS
+    y un estado de CLASS OPEN de abierto para la interaccion en el futuro -->
+        <div>
+            <a href="/">
+            <img class="circle" src="html/assets/img/logos/small.png" alt="logo small">
+                <span> Alan Isai Sandoval T. <small>Desarrolaldor</small></span>
+            </a>
+            <button id="Hamburguesa"> ≡ </button>
+        </div>
+        <ul>
+                <!-- utilizo "#" por que hacemos un VINCULO
+                a secciones LOCALES osea dentro de la misma pagina -->
+                <li> <a href="#Portafolio"> Portafolio</a></li>
+                <li> <a href="#Habilidades">Habilidades</a></li>
+                <li> <a href="#Experiencia">Experiencia</a></li>
+                <li> <a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+        
+        <HR></HR>
+
+        <!-- lla pagina principal esta dividida en 4 SECCIONES
+        -->
+
+
+
+
+        <main>
+            <!-- seccio 1 portafolio -->
+            <section id="portafolio"> 
+                <h3> Portafolio </h3>
+                <br>
+                <div>
+                    <button>
+                        <img src="/PROYECTO/html/assets/img/portfolio/1.png" alt="imagen primer trabajo">
+                        <h4>ingeniero en sistemas</h4>
+                    </button>
+
+                    <button>
+                        <img src="html/assets/img/portfolio/1.png" alt="imagen segundo trabajo">
+                        <h4> dysney animation</h4>
+                    </button>
+
+                    <button>
+                        <img src="html/assets/img/portfolio/1.png" alt="imagen tercer trabajo">
+                        <h4> academia x </h4>
+                    </button>
+                    
+                </div>
+            </section>
+
+
+
+            <!-- seccion 2 HABILIDADES 
+            class "even" por identificar los dos colores de la web
+        y trabajr con ellas en CSS-->
+
+            <section id="habilidades" class="even">
+                <h3>Habilidades</h3>
+                <hr>
+                <div>
+                    <div>
+                        <img src="html/assets/img/skillset/html.svg" alt="logo de html">
+                        <span class="tooltip" >HTML </span>
+                    </div>
+                    <div>
+                        <img src="html/assets/img/skillset/CSS3.jpg" alt="logo de CSS">
+                        <span class="tooltip" >CSS </span>
+                    </div>
+                    <div>
+                        <img src="html/assets/img/skillset/js-logo-1.png" alt="logo de JavaScrip">
+                        <span class="tooltip" >JavaScrip </span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section id="experience" >
+                <div>
+                    <!-- embuelvo en una etiqueta de vinculo
+                    para en un futuro redirgijir
+                al sitio del que comparto mi exeriencia -->
+                    <a>
+                        <img src="html/assets/img/experience/1.svg" alt="imagen expeirncia ">
+                        <h4>"Nombre de la empresa donde trabaje"</h4>
+                    </a>
+                    <a>
+                        <img src="html/assets/img/experience/1.svg" alt="imagen expeirncia ">
+                        <h4>"Nombre de la empresa donde trabaje"</h4>
+                    </a>
+                    <a>
+                        <img src="html/assets/img/experience/1.svg" alt="imagen expeirncia ">
+                        <h4>"Nombre de la empresa donde trabaje"</h4>
+                    </a>
+                </div>
+
+
+            </section>
+            <section id="contact" class="even">
+                <h3>Contacto</h3>
+                <hr>
+                <form action="https://formspree.io/f/xgebpkqe" method="POST">
+                    <label>
+                        Your email:
+                        <input type="email" name="email">
+                    </label>
+                    <label>
+                        Your message:
+                        <textarea name="message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button type="submit">Send</button>
+                </form>
+                <nav id="social-media">
+                    <a href="https://www.instagram.com/alanpro._/">
+                        <img id="instagram" src="html/assets/img/social/github.png" alt="logo instagram">
+                    </a>
+                    <a  href="https://www.instagram.com/alanpro._/">
+                        <img id="linkedin" src="html/assets/img/social/linkedin.png" alt="logo facebook">
+                    </a>
+                    <a href="https://www.instagram.com/alanpro._/">
+                        <img id="youtube" src="html/assets/img/social/youtube.png" alt="logo notion">
+                    </a>
+                </nav>
+                                
+
+            </section>
+            
+        </main>
+        <footer>
+            <small>Devoloped and Disigned by Alan Isai Sandoval T. ©2023 All right reserved. </small>
+        </footer>
+        <script src="./JS/fixed.js"></script>
+        <script src="./JS/JSdom.js"></script>
+        
+    </body>
+</html>

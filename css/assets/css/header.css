@@ -1,0 +1,19 @@
+header {
+    padding: 11rem 0 3rem;
+    position: relative;
+    /* para que no se devorde el video hacia abajo  */
+    overflow: hidden;  
+    background: linear-gradient(var(--black), var(--black2));
+}
+
+header video {
+    /* posision absoluta del video y lo ajustamos con top left etc */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* agregar minimos siempre  */
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2;
+}
